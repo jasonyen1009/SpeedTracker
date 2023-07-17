@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966AA2BE2A6562E500D546EA /* SpeedTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2BD2A6562E500D546EA /* SpeedTrackerApp.swift */; };
+		966AA2C02A6562E500D546EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2BF2A6562E500D546EA /* ContentView.swift */; };
+		966AA2C22A6562E600D546EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966AA2C12A6562E600D546EA /* Assets.xcassets */; };
+		966AA2C52A6562E600D546EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966AA2C42A6562E600D546EA /* Preview Assets.xcassets */; };
+		966AA2CF2A6562E600D546EA /* SpeedTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2CE2A6562E600D546EA /* SpeedTrackerTests.swift */; };
+		966AA2D92A6562E600D546EA /* SpeedTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2D82A6562E600D546EA /* SpeedTrackerUITests.swift */; };
+		966AA2DB2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2DA2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966AA2CB2A6562E600D546EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966AA2B22A6562E500D546EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966AA2B92A6562E500D546EA;
+			remoteInfo = SpeedTracker;
+		};
+		966AA2D52A6562E600D546EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966AA2B22A6562E500D546EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966AA2B92A6562E500D546EA;
+			remoteInfo = SpeedTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		966AA2BA2A6562E500D546EA /* SpeedTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966AA2BD2A6562E500D546EA /* SpeedTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerApp.swift; sourceTree = "<group>"; };
+		966AA2BF2A6562E500D546EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		966AA2C12A6562E600D546EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966AA2C42A6562E600D546EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		966AA2CA2A6562E600D546EA /* SpeedTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966AA2CE2A6562E600D546EA /* SpeedTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerTests.swift; sourceTree = "<group>"; };
+		966AA2D42A6562E600D546EA /* SpeedTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966AA2D82A6562E600D546EA /* SpeedTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerUITests.swift; sourceTree = "<group>"; };
+		966AA2DA2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966AA2B72A6562E500D546EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966AA2C72A6562E600D546EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966AA2D12A6562E600D546EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966AA2B12A6562E500D546EA = {
+			isa = PBXGroup;
+			children = (
+				966AA2BC2A6562E500D546EA /* SpeedTracker */,
+				966AA2CD2A6562E600D546EA /* SpeedTrackerTests */,
+				966AA2D72A6562E600D546EA /* SpeedTrackerUITests */,
+				966AA2BB2A6562E500D546EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966AA2BB2A6562E500D546EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966AA2BA2A6562E500D546EA /* SpeedTracker.app */,
+				966AA2CA2A6562E600D546EA /* SpeedTrackerTests.xctest */,
+				966AA2D42A6562E600D546EA /* SpeedTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966AA2BC2A6562E500D546EA /* SpeedTracker */ = {
+			isa = PBXGroup;
+			children = (
+				966AA2BD2A6562E500D546EA /* SpeedTrackerApp.swift */,
+				966AA2BF2A6562E500D546EA /* ContentView.swift */,
+				966AA2C12A6562E600D546EA /* Assets.xcassets */,
+				966AA2C32A6562E600D546EA /* Preview Content */,
+			);
+			path = SpeedTracker;
+			sourceTree = "<group>";
+		};
+		966AA2C32A6562E600D546EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				966AA2C42A6562E600D546EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		966AA2CD2A6562E600D546EA /* SpeedTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				966AA2CE2A6562E600D546EA /* SpeedTrackerTests.swift */,
+			);
+			path = SpeedTrackerTests;
+			sourceTree = "<group>";
+		};
+		966AA2D72A6562E600D546EA /* SpeedTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				966AA2D82A6562E600D546EA /* SpeedTrackerUITests.swift */,
+				966AA2DA2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift */,
+			);
+			path = SpeedTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966AA2B92A6562E500D546EA /* SpeedTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966AA2DE2A6562E600D546EA /* Build configuration list for PBXNativeTarget "SpeedTracker" */;
+			buildPhases = (
+				966AA2B62A6562E500D546EA /* Sources */,
+				966AA2B72A6562E500D546EA /* Frameworks */,
+				966AA2B82A6562E500D546EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTracker;
+			productName = SpeedTracker;
+			productReference = 966AA2BA2A6562E500D546EA /* SpeedTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		966AA2C92A6562E600D546EA /* SpeedTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966AA2E12A6562E600D546EA /* Build configuration list for PBXNativeTarget "SpeedTrackerTests" */;
+			buildPhases = (
+				966AA2C62A6562E600D546EA /* Sources */,
+				966AA2C72A6562E600D546EA /* Frameworks */,
+				966AA2C82A6562E600D546EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966AA2CC2A6562E600D546EA /* PBXTargetDependency */,
+			);
+			name = SpeedTrackerTests;
+			productName = SpeedTrackerTests;
+			productReference = 966AA2CA2A6562E600D546EA /* SpeedTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		966AA2D32A6562E600D546EA /* SpeedTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966AA2E42A6562E600D546EA /* Build configuration list for PBXNativeTarget "SpeedTrackerUITests" */;
+			buildPhases = (
+				966AA2D02A6562E600D546EA /* Sources */,
+				966AA2D12A6562E600D546EA /* Frameworks */,
+				966AA2D22A6562E600D546EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966AA2D62A6562E600D546EA /* PBXTargetDependency */,
+			);
+			name = SpeedTrackerUITests;
+			productName = SpeedTrackerUITests;
+			productReference = 966AA2D42A6562E600D546EA /* SpeedTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966AA2B22A6562E500D546EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					966AA2B92A6562E500D546EA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					966AA2C92A6562E600D546EA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 966AA2B92A6562E500D546EA;
+					};
+					966AA2D32A6562E600D546EA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 966AA2B92A6562E500D546EA;
+					};
+				};
+			};
+			buildConfigurationList = 966AA2B52A6562E500D546EA /* Build configuration list for PBXProject "SpeedTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966AA2B12A6562E500D546EA;
+			productRefGroup = 966AA2BB2A6562E500D546EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966AA2B92A6562E500D546EA /* SpeedTracker */,
+				966AA2C92A6562E600D546EA /* SpeedTrackerTests */,
+				966AA2D32A6562E600D546EA /* SpeedTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966AA2B82A6562E500D546EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966AA2C52A6562E600D546EA /* Preview Assets.xcassets in Resources */,
+				966AA2C22A6562E600D546EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966AA2C82A6562E600D546EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966AA2D22A6562E600D546EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966AA2B62A6562E500D546EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966AA2C02A6562E500D546EA /* ContentView.swift in Sources */,
+				966AA2BE2A6562E500D546EA /* SpeedTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966AA2C62A6562E600D546EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966AA2CF2A6562E600D546EA /* SpeedTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966AA2D02A6562E600D546EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966AA2D92A6562E600D546EA /* SpeedTrackerUITests.swift in Sources */,
+				966AA2DB2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966AA2CC2A6562E600D546EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966AA2B92A6562E500D546EA /* SpeedTracker */;
+			targetProxy = 966AA2CB2A6562E600D546EA /* PBXContainerItemProxy */;
+		};
+		966AA2D62A6562E600D546EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966AA2B92A6562E500D546EA /* SpeedTracker */;
+			targetProxy = 966AA2D52A6562E600D546EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		966AA2DC2A6562E600D546EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		966AA2DD2A6562E600D546EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966AA2DF2A6562E600D546EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.SpeedTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		966AA2E02A6562E600D546EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.SpeedTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		966AA2E22A6562E600D546EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.SpeedTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedTracker";
+			};
+			name = Debug;
+		};
+		966AA2E32A6562E600D546EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.SpeedTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedTracker";
+			};
+			name = Release;
+		};
+		966AA2E52A6562E600D546EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.SpeedTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedTracker;
+			};
+			name = Debug;
+		};
+		966AA2E62A6562E600D546EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.SpeedTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966AA2B52A6562E500D546EA /* Build configuration list for PBXProject "SpeedTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966AA2DC2A6562E600D546EA /* Debug */,
+				966AA2DD2A6562E600D546EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966AA2DE2A6562E600D546EA /* Build configuration list for PBXNativeTarget "SpeedTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966AA2DF2A6562E600D546EA /* Debug */,
+				966AA2E02A6562E600D546EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966AA2E12A6562E600D546EA /* Build configuration list for PBXNativeTarget "SpeedTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966AA2E22A6562E600D546EA /* Debug */,
+				966AA2E32A6562E600D546EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966AA2E42A6562E600D546EA /* Build configuration list for PBXNativeTarget "SpeedTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966AA2E52A6562E600D546EA /* Debug */,
+				966AA2E62A6562E600D546EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966AA2B22A6562E500D546EA /* Project object */;
+}
