@@ -14,6 +14,8 @@
 		966AA2CF2A6562E600D546EA /* SpeedTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2CE2A6562E600D546EA /* SpeedTrackerTests.swift */; };
 		966AA2D92A6562E600D546EA /* SpeedTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2D82A6562E600D546EA /* SpeedTrackerUITests.swift */; };
 		966AA2DB2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2DA2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift */; };
+		96B02F0B2A876AE700234899 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B02F0A2A876AE700234899 /* LocationManager.swift */; };
+		96B02F0D2A876D4000234899 /* SpeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B02F0C2A876D4000234899 /* SpeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		966AA2D42A6562E600D546EA /* SpeedTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966AA2D82A6562E600D546EA /* SpeedTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerUITests.swift; sourceTree = "<group>"; };
 		966AA2DA2A6562E600D546EA /* SpeedTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96B02F0A2A876AE700234899 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		96B02F0C2A876D4000234899 /* SpeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				966AA2BD2A6562E500D546EA /* SpeedTrackerApp.swift */,
 				966AA2BF2A6562E500D546EA /* ContentView.swift */,
+				96B02F0C2A876D4000234899 /* SpeedViewModel.swift */,
+				96B02F0A2A876AE700234899 /* LocationManager.swift */,
 				966AA2C12A6562E600D546EA /* Assets.xcassets */,
 				966AA2C32A6562E600D546EA /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				966AA2C02A6562E500D546EA /* ContentView.swift in Sources */,
+				96B02F0B2A876AE700234899 /* LocationManager.swift in Sources */,
+				96B02F0D2A876D4000234899 /* SpeedViewModel.swift in Sources */,
 				966AA2BE2A6562E500D546EA /* SpeedTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +425,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpeedTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = KQAN3XGVHJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +456,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpeedTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = KQAN3XGVHJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
